@@ -16,9 +16,9 @@ FILE INDEX
 	------------------- ---------------     ------------------------------------------------------
 	main.cpp            main                main function
     
-    fraction.h          declaration         declares class method and member functions
+    	fraction.h          declaration         declares class method and member functions
 
-    fraction.cpp        fraction methods    fraction class implementations
+    	fraction.cpp        fraction methods    fraction class implementations
 
-    makefile             make                compiles sources files into executable
+    	makefile             make                compiles sources files into executable
 
