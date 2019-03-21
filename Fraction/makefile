@@ -1,12 +1,12 @@
 # Heecheon Park
 # CSIS 352
-# Makefile - prog1
+# Makefile - prog
 
 # Note: This file allows "make" command to do its job to create prog1 executable.
 
 OBJECTS = main.o fraction.o
 CC=g++
-EXE=prog1
+EXE=prog
 CFLAGS=-Wall
 LFLAGS=
 $(EXE):				$(OBJECTS)

@@ -1,7 +1,7 @@
 File:        README
 Author:      Heecheon Park
-Program:     Prog1
-Date:        January 21st, 2018
+Program:     Prog
+Date:        January 21st, 2019
 
 BUILDING THE PROGRAM
 	This program was written with C++ on MacOS. "make" command on bash terminal
@@ -9,7 +9,7 @@ BUILDING THE PROGRAM
 	No other arguments along with "make" command is necessary.
 
 RUNNING THE PROGRAM
-	./prog1 runs the executable just like any other *nix executables.
+	./prog runs the executable just like any other *nix executables.
 
 FILE INDEX
 	file                 function            description
