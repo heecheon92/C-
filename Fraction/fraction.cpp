@@ -1,6 +1,5 @@
 // File: fraction.cpp
 // Name: Heecheon Park
-// Class: CSIS 352
 // Program: prog1
 // Date: January 21st, 2019
 
@@ -89,13 +88,9 @@ void fraction::setFraction(double decim)
     {
         decimalIndex = i;
     }
-// cerr << "Decimal Index: " << decimalIndex << endl;
     countFloats = stringDecimal.size() - (decimalIndex + 2);
     stringNumerator = stringDecimal.erase(decimalIndex + 1, 1);
     denom = pow(10, countFloats);
-// cerr << "countFloats: " << countFloats << endl;
-// cerr << "stringNumerator: " << stringNumerator << endl;
-// cerr << "stringDenominator: "<< denom << endl;
 
     istringstream inputNumer(stringNumerator);
     inputNumer >> numer;
@@ -104,9 +99,6 @@ void fraction::setFraction(double decim)
 
     numer /= gcd;
     denom /= gcd;
-
-    // istringstream inputDenom(stringDenominator);
-    // inputDenom >> denom;
 
     setFraction(numer, denom);
 }
@@ -336,7 +328,6 @@ ostream& operator <<(ostream& out, const fraction& f)
 {
     switch (f.format)
     {
-        // case improper: out << (f.getNumerator() / f.getGCD(f.getNumerator(), f.getDenominator())) << "/" << f.getDenominator() / f.getGCD(f.getNumerator(), f.getDenominator()); break;
         case improper: out << (f.getNumerator()) << "/" << f.getDenominator(); break;
         case mixed: out << f.getProper(); break;
         case decimal: out << f.decimalValue(); break;

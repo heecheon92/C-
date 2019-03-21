@@ -20,11 +20,13 @@ int main()
 {
    fraction f0;
    fraction f1;
+   cout << "Enter an input (numerator/denominator): ";
    cin >> f0;              // input format numerator/denominator, ex 23/9
    cout << "input: " << f0 << endl;     // outputs what was input
 
 // Note the << and >> operators should also work for file streams
 
+   cout << "Enter 2 inputs (like 8/5 12/16): ";
    cin >> f0 >> f1;     // reads 2 fractions, ex 8/5 12/16
    f1.setFraction(17,6);   // 17/6
    cout << f1.getNumerator() << '/' << f1.getDenominator() << endl; // 17/6
