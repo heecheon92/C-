@@ -1,0 +1,30 @@
+File:        README
+Author:      Heecheon Park
+Date:        March 14th, 2019
+
+DESCRIPTION
+    Building a custom vector like array (Abstract Data Type).
+    It has very similar functionalities with vector data type from STL.
+
+BUILDING THE PROGRAM
+	This program was written with C++ on MacOS. "make" command on bash terminal
+    within the directory will compile source files and generate executable "prog".
+	No other arguments along with "make" command is necessary.
+
+RUNNING THE PROGRAM
+	./prog runs the executable just like any other *nix executables.
+
+FILE INDEX
+	file                 function            description
+	------------------- ---------------     ------------------------------------------------------------------------
+    main.cpp            main                main function
+    
+    array.h             declaration         declares and implement the templated class methods and member functions
+                        & implementation
+
+    makefile             make                compiles sources files into executable
+
+FAILURES
+
+    All the errors have been fixed.
+    Tested under MacOS/Ubuntu.
