@@ -1,0 +1,24 @@
+File:        README
+Author:      Heecheon Park
+Program:     Prog1
+Date:        January 21st, 2018
+
+BUILDING THE PROGRAM
+	This program was written with C++ on MacOS. "make" command on bash terminal
+    within the directory will compile source files and generate executable "prog1".
+	No other arguments along with "make" command is necessary.
+
+RUNNING THE PROGRAM
+	./prog1 runs the executable just like any other *nix executables.
+
+FILE INDEX
+	file                 function            description
+	------------------- ---------------     ------------------------------------------------------
+	main.cpp            main                main function
+    
+    fraction.h          declaration         declares class method and member functions
+
+    fraction.cpp        fraction methods    fraction class implementations
+
+    makefile             make                compiles sources files into executable
+
