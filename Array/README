@@ -17,12 +17,12 @@ RUNNING THE PROGRAM
 FILE INDEX
 	file                 function            description
 	------------------- ---------------     ------------------------------------------------------------------------
-    main.cpp            main                main function
+    	main.cpp            main                main function
     
-    array.h             declaration         declares and implement the templated class methods and member functions
-                        & implementation
+    	array.h             declaration         declares and implement the templated class methods and member functions
+                            & implementation
 
-    makefile             make                compiles sources files into executable
+    	makefile             make                compiles sources files into executable
 
 FAILURES
 
