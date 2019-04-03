@@ -1,12 +1,11 @@
 # Heecheon Park
-# CSIS 352
-# Makefile - prog4
+# Makefile - prog
 
-# Note: This file allows "make" command to do its job to create prog3 executable.
+# Note: This file allows "make" command to do its job to create prog executable.
 
 OBJECTS = main.o
 CC=g++
-EXE=prog4
+EXE=prog
 CFLAGS=-Wall
 LFLAGS=
 $(EXE):			$(OBJECTS)

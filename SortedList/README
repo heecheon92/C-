@@ -1,6 +1,6 @@
 File:        README
 Author:      Heecheon Park
-Program:     Prog4
+Program:     Prog
 Date:        March 14th, 2019
 
 BUILDING THE PROGRAM
@@ -9,7 +9,7 @@ BUILDING THE PROGRAM
 	No other arguments along with "make" command is necessary.
 
 RUNNING THE PROGRAM
-	./prog4 runs the executable just like any other *nix executables.
+	./prog runs the executable just like any other *nix executables.
 
 FILE INDEX
 	file                 function            description

@@ -1,7 +1,6 @@
 // File:    sortedList.h
 // Name:    Heecheon Park
-// Class:   CSIS 352
-// Program: prog4
+// Program: prog
 // Date:    March 25th, 2019
 
 /*  
@@ -293,7 +292,8 @@ namespace sortedListSpace
     {
         return count;
     }
-
+    
+    // Since this is a sorted linked list, it shouldn't allow to insert an item at a given index.
     // template <typename T>        
     // T& sortedList<T>::operator[](int index)
     // {
@@ -427,8 +427,9 @@ namespace sortedListSpace
         count++;
     }
 
-    // This is not what you intended for us to do.
-    // So I re-implemented with the code above.
+    // This insertItem adds item regardless of order and sort at the end of the function.
+    // This is not an efficient way of implementing sorted linked list but still can be used.
+    // Please use insertItem above for better performace.
 
     // template <typename T>
     // void sortedList<T>::insertItem(const T& newInfo)
@@ -708,7 +709,6 @@ namespace sortedListSpace
     {
         nodeType<T> *current = first;
         current->info = first->info;
-        //current->link = first->link;
         while (current->link != NULL)
         {
             if (current->info == current->link->info)
