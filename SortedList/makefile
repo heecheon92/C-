@@ -16,4 +16,4 @@ main.o:	main.cpp sortedList.h
 
 # Clean up the directory
 clean:
-				rm -rf $(OBJECTS) $(EXE)*~
+				rm -rf $(OBJECTS) $(EXE)*
