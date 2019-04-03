@@ -19,4 +19,4 @@ fraction.o:			fraction.cpp fraction.h
 					$(CC) $(CFLAGS) -c fraction.cpp
 # Clean up the directory
 clean:
-					rm -rf $(OBJECTS) $(EXE) *~
+					rm -rf $(OBJECTS) $(EXE)*
