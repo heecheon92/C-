@@ -1,7 +1,6 @@
 // File: fraction.h
 // Name: Heecheon Park
-// Class: CSIS 352
-// Program: prog1
+// Program: prog
 // Date: January 21st, 2019
 
 /*  
