@@ -3,9 +3,13 @@ Author:      Heecheon Park
 Program:     Prog
 Date:        March 14th, 2019
 
+DESCRIPTION
+	This program is a demonstration of sorted linked list (singly).
+	An item can be added in order based on the order format (ASCENDING / DESCENDING).
+
 BUILDING THE PROGRAM
 	This program was written with C++ on MacOS. "make" command on bash terminal
-    within the directory will compile source files and generate executable "prog1".
+    	within the directory will compile source files and generate executable "prog".
 	No other arguments along with "make" command is necessary.
 
 RUNNING THE PROGRAM
@@ -14,16 +18,12 @@ RUNNING THE PROGRAM
 FILE INDEX
 	file                 function            description
 	------------------- ---------------     ------------------------------------------------------------------------
-    main.cpp            main                main function
+    	main.cpp            main                main function
     
-    sortedList.h        declaration         declares and implement the templated class methods and member functions
-                        & implementation
+    	sortedList.h        declaration         declares and implement the templated class methods and member functions
+                            & implementation
 
-    makefile             make                compiles sources files into executable
+    	makefile             make                compiles sources files into executable
 
 FAILURES
-    Double checked on smaug.
-
-    It worked on Mac but crashed on smaug.
-
-    Bug fixed.....
+    	All known bugs have been fixed.
